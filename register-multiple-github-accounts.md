@@ -88,3 +88,11 @@ Company 디렉토리이면 ~/.gitconfig-company 파일을 불러온다
 ```
 
 위와 같이 사용하면 ~/Company 디렉토리에서는 회사 계정을 사용하게 된다.
+
+9. remote 연결
+
+```
+$ git remote add origin git@github.com-self:xxx/xxx.git
+$ git branch -M main
+$ git push -u origin main
+```
